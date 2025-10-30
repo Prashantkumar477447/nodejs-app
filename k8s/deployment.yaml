@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: nodejs-app
-          image: asia-south1-docker.pkg.dev/<PROJECT_ID>/nodejs-repo/nodejs-app:v1
+          image: asia-south1-docker.pkg.dev/prashant-474308/nodejs-repo/nodejs-app:v1
           ports:
             - containerPort: 8080
